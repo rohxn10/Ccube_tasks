@@ -9,14 +9,10 @@ body{
     background-attachment: fixed;
 }
 h1{
-    /* font-family: 'Maven Pro', sans-serif; */
-    /* font-family: 'Righteous', cursive; */
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     font-size: 50px;
     align-content: center;
-    /* border: 7px solid white; */
-    /* border-radius: 30px; */
     margin-top: 15px;
     padding: 5px;
     text-shadow: 5px 5px 40px white;
@@ -46,38 +42,21 @@ nav{
     width: 87%;
 }
 .container{
-    /* background-color: cyan; */
-    /* background-color: rgb(11, 111, 43); */
-    /* color: black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin:13px;
     padding: 10px;
-    /* width:50wv; */
-    /* height: 70vh; */
-    /* border-style: solid; */
-    /* border-color: black; */
-    /* border-radius: 50px; */
+ 
 }
-/* input[type="file"]{
-    display: none
-} */
-/* label{
-    display: block;
-    background-color: lightgreen;
-    font-size: 1.12em;
-    font-family: 'Maven Pro', sans-serif;
 
-} */
 
 .flow{
     background-color: white;
     border-radius: 10px;
     width: 300px;
     height: 300px;
-    /* opacity:0.8; */
     text-align: center;
     box-shadow: 10px 10px black;
     font-family: 'Josefin Sans', sans-serif;
@@ -95,7 +74,7 @@ nav{
 
 }
 .flow img:hover{
-    -webkit-transform:scale(1.5); /* or some other value */
+    -webkit-transform:scale(1.5); 
     transform:scale(1.5);
     box-shadow: 10px 10px 50px black;
 }
