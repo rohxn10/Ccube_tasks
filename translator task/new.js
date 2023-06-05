@@ -71,6 +71,6 @@ icons.forEach(icon => {
                 utterance.lang = selectTag[1].value;
             }
             speechSynthesis.speak(utterance);
-        }
-   });
+        }
+    });
 });
